@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" method="upgrade">
+	<name>WT JSHopping products anywhere</name>
+	<author>Sergey Tolkachyov</author>
+	<creationDate>19.10.2024</creationDate>
+	<packagename>pkgwtjshoppingproductsanywhere</packagename>
+	<version>2.0.1</version>
+	<url>https://web-tolk.ru/</url>
+	<packager>Sergey Tolkachyov</packager>
+	<packagerurl>https://web-tolk.ru/</packagerurl>
+	<description>PKG_PKGWTJSHOPPINGPRODUCTSANYWHERE_DESC</description>
+	<license>GNU GPL 3.0</license>
+	<scriptfile>pkg_script.php</scriptfile>
+	<languages>
+		<language tag="ru-RU">language/ru-RU/pkg_pkgwtjshoppingproductsanywhere.sys.ini</language>
+		<language tag="en-GB">language/en-GB/pkg_pkgwtjshoppingproductsanywhere.sys.ini</language>
+	</languages>
+	<files>
+	   <folder type="plugin" id="wtjshoppingproductsanywhere" group="content">plg_content_wtjshoppingproductsanywhere</folder>
+	   <folder type="plugin" id="wtjshoppingproductsanywhereeditorsxtd" group="editors-xtd">plg_editors-xtd_wtjshoppingproductsanywhereeditorsxtd</folder>
+	</files>
+	<updateservers>
+      <server type="extension" priority="1" name="WT JShopping products anywhere updates">https://web-tolk.ru/component/swjprojects/jupdate?element=pkgwtjshoppingproductsanywhere</server>
+	</updateservers>
+	<changelogurl>https://web-tolk.ru/jchangelog?element=pkgwtjshoppingproductsanywhere</changelogurl>
+</extension>

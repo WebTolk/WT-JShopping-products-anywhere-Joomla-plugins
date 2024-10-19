@@ -1,2 +1,6 @@
-# WT-JShopping-products-anywhere-Joomla-plugins
-A package of plugins for inserting JoomShopping products into Joomla materials and modules, as well as wherever content plugins work.
+# WT JShopping products anywhere Joomla content and editor button JoomShopping plugins 
+A package of plugins for inserting JoomShopping products into Joomla articles and modules, as well as wherever content plugins work.
+
+A package consisting of two plugins: a content plugin and an editor button plugin that allow you to quickly and conveniently insert JoomShopping products into materials, modules and wherever content plugins work. The default layout is just a link to the product. If you change the product category (for example), the links will be corrected automatically.
+The content plugin supports output layouts. This means that you can create your own output layout and provide more complete information about the displayed product: image, short description, price, number of views, rating, quantity of goods, etc. For more information, see the file `plugins/content/wt_jshopping_products_anywhere/tmpl/default.php`.
+To create your own plugin output layout, copy the file default.php and rename it. Put your HTML layout inside the file. The layout selection will appear in the product selection pop-up window when editing the article.

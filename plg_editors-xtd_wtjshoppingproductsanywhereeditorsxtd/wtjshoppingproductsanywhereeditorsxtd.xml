@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="editors-xtd" method="upgrade">
+    <name>Editors-xtd - WT JShopping products anywhere editor-xtd</name>
+    <author>Sergey Tolkachyov</author>
+    <creationDate>19.10.2024</creationDate>
+    <copyright>Copyright (c) 2021 - 2024 Sergey Tolkachyov. All rights reserved.</copyright>
+    <license>GNU General Public License version 2</license>
+    <authorEmail>info@web-tolk.ru</authorEmail>
+    <authorUrl>https://web-tolk.ru</authorUrl>
+    <version>2.0.1</version>
+    <description>Editor button plugin for WT JShopping products anywhere content plugin</description>
+    <namespace path="src">Joomla\Plugin\EditorsXtd\Wtjshoppingproductsanywhereeditorsxtd</namespace>
+    <files>
+        <folder plugin="wtjshoppingproductsanywhereeditorsxtd">src</folder>
+        <folder>services</folder>
+        <filename>wtjshoppingproductsanywhereeditorsxtd.xml</filename>
+    </files>
+    <media folder="media" destination="plg_editors-xtd_wtjshoppingproductsanywhereeditorsxtd">
+        <folder>js</folder>
+    </media>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field addfieldprefix="Joomla\Plugin\EditorsXtd\Wtjshoppingproductsanywhereeditorsxtd\Fields"
+                       type="plugininfo" name="plugininfo"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
